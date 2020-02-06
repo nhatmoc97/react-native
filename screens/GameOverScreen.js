@@ -1,5 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet, Button, Image, Dimensions, ScrollView } from 'react-native';
+import {
+    View,
+    Text,
+    StyleSheet,
+    Button, Image,
+    Dimensions,
+    ScrollView
+} from 'react-native';
 
 import BodyText from '../components/BodyText';
 import TitleText from '../components/TitleText';
@@ -39,7 +46,8 @@ const styles = StyleSheet.create({
     screen: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        paddingVertical: 10
     },
     imageContainer: {
         width: Dimensions.get('window').width * 0.7,
